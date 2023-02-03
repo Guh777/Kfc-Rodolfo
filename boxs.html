@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+  <title>KFC-Restaurantes</title>
+  <link rel="stylesheet" href="./boxs.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="imagem/jpg" href="./img/kfc.jpg">
+
+</head>
+
+
+<body>
+  <a onclick="abrir('popup')" class="pop"> <img src="./img/menunuu.png" class="list"> </a>
+  <div class="barra">
+
+    <ul class="ul-barra">
+
+      <a href="./baldes.html" aria-current="page">
+        <li class="li um">Baldes</li>
+      </a>
+
+      <a href="./boxs.html">
+        <li class="li dois">Box</li>
+      </a>
+      <a href="./sandubas.html">
+        <li class="li tres">Sanduíches</li>
+      </a>
+      <a href="./acomp.html">
+        <li class="li quatro">Acompanhamentos</li>
+      </a>
+      <a href="./molho.html">
+        <li class="li cinco">Molhos</li>
+      </a>
+      <a href="./sobremesas.html">
+        <li class="li seis">Sobremesas</li>
+      </a>
+      <a href="./sucos.html">
+        <li class="li sete">Bebidas</li>
+      </a>
+    </ul>
+
+  </div>
+
+  <header>
+
+    <div class="banner">
+      <img src="./comidinhas/banner-box-principal.png" id="banner-box-Principal">
+      <img src="./comidinhas/banner-box-um.jpg" id="banner-box-um">
+      <img src="./comidinhas/banner-box-dois.png" id="banner-box-dois">
+      <img src="./comidinhas/banner-box-tres.png" id="banner-box-tres">
+      <img src="./comidinhas/banner-box-quatro.png" id="banner-box-quatro">
+      <img src="./comidinhas/banner-box-cinco.png" id="banner-box-cinco">
+      <img src="./comidinhas/banner-box-seis.png" id="banner-box-seis">
+
+    </div>
+
+
+    <nav id="popup">
+
+      <img src="./img/KFCMAIK.png" class="img1" onclick="fechar('popup')">
+
+      <ul>
+        <a>
+
+          <li> <a href="./index.html"> Início</a></li>
+          <li> <a href="./card.html">Cardápio </a></li>
+          <li> <a href="./cupons.html">Cupons </a></li>
+          <li> <a onclick="abrir2('popup2')"> Delivery </a> </li>
+          <li> <a href="./sobrens.html">Sobre nós</a></li>
+          <li><a href="./fc.html">Fale conosco</a></li>
+
+        </a>
+
+      </ul>
+
+    </nav>
+    <div id="popup2">
+      <a onclick="fechar2('popup2')"><img src="./img/volta.png" class="volta"> </a>
+      <h5> <a
+          href="https://www.ifood.com.br/delivery/descobrir/lista/chain:e2b75ff9-285b-400a-b0c8-28c52170c387?source_caller=ui&shortlink=KFC&c=KFC&pid=lista_parceiro&af_click_lookback=7d&af_force_deeplink=true"
+          target="_blank">Ifood </a></h5>
+      <h5> <a href="https://www.rappi.com.br/" target="_blank">Rappi </a></h5>
+    </div>
+
+
+  </header>
+
+  <div class="guh-principal">
+
+    <div class="Snack-Box">
+      <a onclick="box('SnackBox')"> <img src="./comidinhas/box1.png" class="guh" id="baldao"></a>
+      <h5>Snack Box</h5>
+    </div>
+    <div class="Wow-Box-Pedaços">
+      <a onclick="box1 ('WowBoxPedaços')"><img src="./comidinhas/box2.png" class="guh1"></a>
+      <h5>Wow Box Pedaços</h5>
+    </div>
+    <div class="Wow-Box-Tirinhas">
+      <a onclick="box2 ('WowBoxTirinhas')"><img src="./comidinhas/box3.png" class="guh2"></a>
+      <h5>Wow Box Tirinhas</h5>
+    </div>
+    <div class="Wow-Box-Double-Crunch">
+      <a onclick="box3 ('WowBoxDoubleCrunch')"><img src="./comidinhas/box4.png" class="guh3"></a>
+      <h5>Wow Box Double <br> Crunch</h5>
+    </div>
+    <div class="Wow-Box-Double-Crunch-BBQ">
+      <a onclick="box4 ('WowBoxDoubleCrunchBBQ')"><img src="./comidinhas/box5.png" class="guh4"></a>
+      <h5>Wow Box Double <br> Crunch BBQ</h5>
+    </div>
+    <div class="Big-Box">
+      <a onclick="box5('BigBox')"><img src="./comidinhas/box6.png" class="guh5"></a>
+      <h5>Big Box</h5>
+    </div>
+
+  </div>
+
+
+
+  <div id="textNone">
+    <div class="text">
+      <h3>O FRANGO QUE NINGUÉM CONSEGUIU COPIAR, MUITO BEM ACOMPANHADO</h3>
+      <p class="p-um">Nem todo mundo vai acompanhado ao KFC, mas aqui o frango exclusivo criado pelo Coronel pode vir
+        acompanhado para satisfazer a sua fome em porções individuais</p>
+
+      <a href="./cupons.html"><button>VEJA OS CUPONS</button> </a>
+
+    </div>
+  </div>
+  <div id="SnackBox">
+    <div class="Snack-Box-um">
+      <h3>SABOR NA SUA FORMA MAIS COMPACTA</h3>
+      <p>Um pedaço de frango ou uma tirinha e batata frita para quem quer devorar sozinho
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+
+
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+
+  <div id="WowBoxPedaços">
+    <div class="Wow-Box-Pedaços-um">
+      <h3>O TRADICIONAL
+      </h3>
+      <p>No Wow Box Pedaços você prova o frango que ninguém conseguiu copiar na sua forma mais tradicional. <br> São 2
+        pedaços acompanhados de batata frita</p>
+      <h3>TABELA NUTRICIONAL</h3>
+
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+
+        <p><a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+
+            <u> Download Tabela
+              Nutricional</u>
+
+          </a>
+        </p>
+
+      </tabela>
+
+
+    </div>
+  </div>
+  <div id="WowBoxTirinhas">
+    <div class="Wow-Box-Tirinhas-um">
+      <h3>MODERNO E MACIO</h3>
+      <p>Para quem gosta do frango que até hoje ninguém conseguiu copiar, no formato tirinhas,esse Wow é perfeito: <br>
+        são
+        3 Tirinhas acompanhadas de batata frita</p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+  <div id="WowBoxDoubleCrunch">
+    <div class="Wow-Box-Double-Crunch-um">
+      <h3>DO TAMANHO DA SUA FOME</h3>
+      <p>2 Tirinhas suculentas e douradas, feitas com a Receita Crocante, dentro do pão tostado com manteiga, com Salada
+        <br>
+        Mix Tropical e a maionese temperada exclusiva do KFC! 2 Tirinhas suculentas e douradas, feitas com a Receita
+        <br>
+        Crocante, dentro do pão tostado com manteiga, <br> com Salada Mix Tropical e a maionese temperada exclusiva do
+        KFC!
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+  <div id="WowBoxDoubleCrunchBBQ">
+    <div class="Wow-Box-Double-Crunch-BBQ-um">
+      <h3>DO TAMANHO DA SUA FOME</h3>
+      <p>Wow! Conseguimos deixar o Double Crunch BBQ ainda melhor. Mas como? Foi só colocar o sanduíche dentro de um box
+        <br>
+        cheio de batata frita e ainda acrescentar mais 1 pedaço ou 1 tirinha, você escolhe
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+  <div id="BigBox">
+    <div class="Big-Box-um">
+      <h3>O MAIORAL</h3>
+      <p>Às vezes, a fome vem maior do que a gente esperava. Mas não tem problema. Aqui a gente tá preparado pra ela.
+        <br>
+        Com o Big Box KFC, você escolhe seu sanduíche, 2 pedaços ou 2 tirinhas, com batata frita e refrigerante
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+
+  <script src="./card.js"> </script>
+  <script src="./kaue.js"> </script>
+  <script> </script>
+
+</body>
+
+
+
+<style type="text/css">
+  #popup {
+    display: none;
+    top: 0%;
+    position: fixed;
+    background-color: #f40424;
+    width: 10%;
+    height: 100vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 4;
+
+    animation-duration: 0.7s;
+    animation-name: guh;
+
+
+  }
+
+  @keyframes guh {
+    from {
+      margin-left: -11%;
+
+    }
+
+    to {
+      margin-left: 0;
+
+    }
+  }
+
+  @keyframes guhOut {
+    from {
+      margin-left: 0;
+
+    }
+
+    to {
+      margin-left: -11%;
+
+    }
+  }
+
+  #popup2 {
+    margin-left: 133px;
+    display: none;
+    top: 57%;
+    position: fixed;
+    background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+    width: 100px;
+    height: 13vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    animation-duration: 0.7s;
+    animation-name: pop2;
+    animation-fill-mode: forwards;
+  }
+
+  #popup2 h5 {
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+
+  }
+
+  #popup2.show {
+    display: block;
+  }
+
+  .volta {
+    position: absolute;
+    left: 85%;
+    width: 15px;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  @keyframes pop2 {
+    from {
+      margin-left: -10%;
+    }
+
+    to {
+      margin-left: 133px;
+    }
+  }
+
+  @keyframes pop2Out {
+    from {
+      margin-left: 133px;
+
+    }
+
+    to {
+      margin-left: -10%;
+    }
+  }
+
+  @media (min-width:992px) and (max-width: 1280px) {
+
+    #popup2 {
+      left: -10px;
+      display: none;
+      top: 40%;
+      position: fixed;
+      background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+      width: 100px;
+      height: 13vh;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    #popup2 h5 {
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 25px;
+
+    }
+  }
+
+  @media (min-width:1920px) and (max-width: 2048px) {
+
+    #popup2 {
+      left: -10px;
+      display: none;
+      top: 55%;
+      position: fixed;
+      background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+      width: 110px;
+      height: 13vh;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    #popup2 h5 {
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 32px;
+      font-size: 15px;
+
+    }
+
+
+    @keyframes pop2 {
+      from {
+        margin-left: -10%;
+      }
+
+      to {
+        margin-left: 200px;
+      }
+    }
+
+    @keyframes pop2Out {
+      from {
+        margin-left: 200px;
+
+      }
+
+      to {
+        margin-left: -10%;
+      }
+    }
+
+    .volta {
+
+      left: 85%;
+      width: 20px;
+      top: 40%;
+
+    }
+  }
+</style>
+
+
+</html>

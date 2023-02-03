@@ -1,0 +1,406 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+}
+
+body {
+
+  height: 255vh;
+  background-image: url(./img/fundoNY.jpg)
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+*::-webkit-scrollbar-track {
+  background: #252525;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(270deg, rgba(187, 202, 207, 1) 0%, rgba(212, 236, 225, 1) 100%);
+  background-size: auto;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  border-radius: 20px;
+  border: 3px solid #252525;
+
+
+}
+
+.img1 {
+  width: 85px;
+  margin-left: 22px;
+  margin-top: 20px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: aliceblue;
+
+
+
+}
+
+ul {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+.img1:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+  border: 1px solid #000;
+
+}
+
+
+li {
+
+  margin-bottom: 60px;
+  margin-left: 15px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+a:hover {
+  color: #e0d9d9;
+  transition: 0.2s;
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.pop {
+  position: absolute;
+  cursor: pointer;
+  top: 6px;
+
+}
+
+
+.list {
+  width: 37px;
+  z-index: 2;
+  position: fixed;
+  top: 15px;
+  left: 7px;
+
+
+}
+
+
+.image {
+  margin-top: 6%;
+  width: 1024px;
+  height: 430px;
+  border-radius: 15px;
+  background-image: url('./img/fundocupom.jpg');
+  background-repeat: no-repeat;
+
+
+  border: 1px solid #f40424;
+}
+
+
+.alinha {
+
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.barra {
+
+  width: 100%;
+  height: 60px;
+
+
+}
+
+.barra h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  color: aliceblue;
+  background-image: linear-gradient(to top, #f40424, #c51e34, #ff425b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+span {
+  color: #f40424;
+}
+
+.text {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.image p {
+  color: aliceblue;
+  font-size: small;
+  max-width: 550px;
+  margin-top: 15px;
+
+}
+
+
+.image h1 {
+  color: aliceblue;
+  font-size: 50px;
+
+}
+
+.image h4 {
+  color: aliceblue;
+  font-size: 20px;
+
+}
+
+.b2 {
+  color: aliceblue;
+  border: none;
+  background-color: #f40424;
+  cursor: pointer;
+  margin-top: 2%;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 1px solid #f40424;
+
+}
+
+.b1 {
+  background-color: #252525;
+  border: 1px solid aliceblue;
+  margin-top: 2%;
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: aliceblue;
+  cursor: pointer;
+
+}
+
+.b1:hover {
+  background: none;
+  transition: linear 0.42s;
+  transform: translateY(-3%);
+
+}
+
+.b2:hover {
+  background: none;
+  transition: linear 0.42s;
+  transform: translateY(-2%);
+
+}
+
+.cupom-pricipal {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+
+  gap: 75px;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+
+.cupom-pricipal h5 {
+
+  margin-top: 140px;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  color: aliceblue;
+}
+
+.cupom-pricipal span {
+  position: absolute;
+  margin-top: 55px;
+  font-size: 14px;
+  color: aliceblue;
+
+}
+
+.cupom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top, #f40424, #c51e34, #ff425b);
+  width: 200px;
+  height: 280px;
+  border-radius: 20px;
+  border: 5px double #252525;
+
+}
+
+.button-card {
+
+  color: aliceblue;
+  border: 1px solid #252525;
+  margin-top: 20px;
+  background-color: #252525;
+  padding: 4px;
+  width: 160px;
+  border-radius: 20px;
+  cursor: pointer;
+
+
+}
+
+.button-card:hover {
+  background: none;
+  transition: linear 0.5s;
+}
+
+.div-alinha {
+  position: absolute;
+  margin-top: 200px;
+
+}
+
+.imagem-cupom1 {
+  position: absolute;
+  width: 150px;
+  margin-top: -25px;
+}
+
+.imagem-cupom2 {
+  position: absolute;
+  width: 150px;
+  margin-top: -25px;
+}
+
+.imagem-cupom3 {
+  position: absolute;
+  width: 150px;
+  margin-top: -30px;
+
+}
+
+.imagem-cupom4 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom5 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom6 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom7 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom8 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom9 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom10 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom11 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.imagem-cupom12 {
+  position: absolute;
+  width: 150px;
+  margin-top: -40px;
+}
+
+
+@media (min-width:992px) and (max-width: 1280px) {
+  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+  }
+
+  body {
+    height: 190vh;
+    background-image: url(./img/fundoNY.jpg);
+    background-size: 210vh;
+
+  }
+
+
+
+}
+
+@media (min-width:1920px) and (max-width:2048px) {
+  body {
+
+    height: 160vh;
+    background-image: url(./img/fundoNY.jpg)
+  }
+
+  li {
+
+    margin-bottom: 60px;
+    margin-left: 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: aliceblue;
+
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+  }
+
+  .img1 {
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+  }
+
+
+}

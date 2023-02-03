@@ -1,0 +1,884 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+}
+
+body {
+  height: 100vh;
+  background-image: url(./img/fundoNY.jpg);
+
+
+
+
+
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+*::-webkit-scrollbar-track {
+  background: #252525;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(270deg, rgba(187, 202, 207, 1) 0%, rgba(212, 236, 225, 1) 100%);
+  background-size: auto;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  border-radius: 20px;
+  border: 3px solid #252525;
+
+
+}
+
+.barra {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: #f40424;
+
+}
+
+.ul-barra {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 45px;
+  margin-top: 18px;
+
+}
+
+.ul-barra li {
+
+  font-size: 12px;
+  padding: 5px 5px;
+  border: 1px solid #f40424;
+  border-radius: 20px;
+
+}
+
+.ul-barra li:hover {
+  color: #e0d9d9;
+  transition: 0.2s;
+  border: 1px solid aliceblue;
+
+}
+
+.img1 {
+  width: 85px;
+  margin-left: 22px;
+  margin-top: 20px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: aliceblue;
+
+
+
+}
+
+
+
+
+
+ul {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+.img1:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+  border: 1px solid #000;
+
+}
+
+
+li {
+
+  margin-bottom: 60px;
+  margin-left: 15px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(176, 180, 184);
+  transition: 0.2s;
+
+}
+
+.pop {
+  cursor: pointer;
+
+
+
+}
+
+.list {
+  width: 37px;
+  z-index: 2;
+  position: fixed;
+  top: 15px;
+  left: 7px;
+
+}
+
+.principal-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+}
+
+
+
+.cardimg {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+
+  width: 70%;
+  height: 59%;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+
+
+}
+
+.banner {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner img {
+  margin-top: 75px;
+  border-radius: 15px;
+  width: 888.203125px;
+  height: 440.625px;
+  min-width: 13%;
+  min-height: 1%;
+
+}
+
+.guh-principal {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+
+}
+
+
+
+
+.text {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.text h3 {
+  color: red;
+  text-align: center;
+}
+
+.text p {
+  color: aliceblue;
+  text-align: center;
+  font-size: 13px;
+}
+
+.p-um {
+
+  max-width: 800px;
+}
+
+button {
+  margin-bottom: 20px;
+  color: aliceblue;
+  background-color: #f40424;
+  border: 1px solid #f40424;
+  padding: 5px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: none;
+  transition: 0.5s;
+}
+
+
+
+.Snack-Box-um {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: aliceblue;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.Snack-Box-um h3 {
+  color: #f40424;
+}
+
+.Snack-Box-um p {
+  font-size: 13px;
+
+
+}
+
+.Wow-Box-Pedaços-um {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: aliceblue;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.Wow-Box-Pedaços-um h3 {
+  color: #f40424;
+}
+
+.Wow-Box-Pedaços-um p {
+  font-size: 13px;
+
+
+}
+
+.Wow-Box-Tirinhas-um {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: aliceblue;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.Wow-Box-Tirinhas-um h3 {
+  color: #f40424;
+}
+
+.Wow-Box-Tirinhas-um p {
+  font-size: 13px;
+
+
+}
+
+.Wow-Box-Double-Crunch-um {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: aliceblue;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.Wow-Box-Double-Crunch-um h3 {
+  color: #f40424;
+}
+
+.Wow-Box-Double-Crunch-um p {
+  font-size: 13px;
+
+
+}
+
+.Wow-Box-Double-Crunch-BBQ-um {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: aliceblue;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.Wow-Box-Double-Crunch-BBQ-um h3 {
+  color: #f40424;
+}
+
+.Wow-Box-Double-Crunch-BBQ-um p {
+  font-size: 13px;
+
+
+}
+
+.Big-Box-um {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: aliceblue;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.Big-Box-um h3 {
+  color: #f40424;
+}
+
+.Big-Box-um p {
+  font-size: 13px;
+
+
+}
+
+.alinha-h5 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+tabela {
+  margin-bottom: 20px;
+  display: flex;
+  background: #f40424;
+  border: 3px double aliceblue;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 75px;
+  border-top-right-radius: 75px;
+  flex-direction: column;
+  gap: 20px;
+  width: max-content;
+  padding: 50px
+}
+
+alinhado {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+tabela h4 {
+  margin-top: -25px;
+  font-size: 20px;
+}
+
+tabela h5 {
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+
+
+
+footer {
+  display: flex;
+  margin-top: 75px;
+  background-color: #252525;
+  width: 100%;
+  height: 40vh;
+  border-top: 1px solid aliceblue;
+
+}
+
+.imglogo {
+
+  width: 105px;
+  height: 103px;
+
+
+}
+
+#textNone {
+  display: block;
+}
+
+#SnackBox {
+  display: none;
+}
+
+#WowBoxPedaços {
+  display: none;
+}
+
+#WowBoxTirinhas {
+  display: none;
+}
+
+#WowBoxDoubleCrunch {
+  display: none;
+}
+
+#WowBoxDoubleCrunchBBQ {
+  display: none;
+}
+
+#BigBox {
+  display: none;
+}
+
+
+#banner-box-principal {
+  display: block;
+}
+
+#banner-box-um {
+  display: none;
+}
+
+#banner-box-dois {
+  display: none;
+}
+
+#banner-box-tres {
+  display: none;
+}
+
+#banner-box-quatro {
+  display: none;
+}
+
+#banner-box-cinco {
+  display: none;
+}
+
+#banner-box-seis {
+  display: none;
+}
+
+
+
+.Snack-Box {
+
+  color: aliceblue;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Snack-Box:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(240, 248, 255, 0.5);
+
+}
+
+.Wow-Box-Pedaços {
+
+  color: aliceblue;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Wow-Box-Pedaços:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(240, 248, 255, 0.5);
+
+}
+
+.Wow-Box-Tirinhas {
+
+  color: aliceblue;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Wow-Box-Tirinhas:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(240, 248, 255, 0.5);
+
+}
+
+.Wow-Box-Double-Crunch {
+
+
+  color: aliceblue;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Wow-Box-Double-Crunch:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(240, 248, 255, 0.5);
+
+}
+
+.Wow-Box-Double-Crunch-BBQ {
+
+  color: aliceblue;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Wow-Box-Double-Crunch-BBQ:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(240, 248, 255, 0.5);
+
+}
+
+.Big-Box {
+
+  color: aliceblue;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.Big-Box:hover {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(240, 248, 255, 0.5);
+
+}
+
+.guh-principal img {
+
+
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.guh-principal img {
+
+  cursor: pointer;
+}
+
+.guh-principal img:hover {
+  transform: translateY(-3%);
+  transition: 0.5s;
+
+}
+
+.guh {
+  width: 150px;
+}
+
+.guh1 {
+  width: 150px;
+}
+
+.guh2 {
+  width: 150px;
+}
+
+.guh3 {
+  margin-top: 15px;
+  width: 110px;
+}
+
+.guh4 {
+  margin-top: 7px;
+  width: 150px;
+}
+
+.guh5 {
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+.text-baldao {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  color: aliceblue;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.text-baldao h3 {
+  color: #f40424;
+}
+
+.text-baldao p {
+  font-size: 13px;
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width: 1280px) {
+  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+  }
+
+  body {
+    height: 100vh;
+    background-image: url(./img/fundoNY.jpg);
+    background-size: 210vh;
+
+  }
+
+  .barra {
+    position: absolute;
+    width: 100%;
+    height: 7vh;
+    background-color: #f40424;
+
+  }
+
+  .ul-barra li:hover {
+    color: #e0d9d9;
+    transition: 0.2s;
+    border: 1px solid aliceblue;
+  }
+
+  .ul-barra {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 45px;
+    margin-top: 18px;
+
+  }
+
+  .ul-barra li {
+
+    font-size: 12px;
+    padding: 5px 5px;
+
+
+  }
+
+  .ul-barra li:hover {
+    color: #e0d9d9;
+    transition: 0.2s;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+
+
+  }
+
+
+
+
+
+
+  .img1 {
+    width: 85px;
+    margin-left: 22px;
+    margin-top: 20px;
+    border-radius: 100%;
+    border: 1px solid #000;
+    cursor: pointer;
+    background: aliceblue;
+  }
+
+
+  ul {
+    margin-top: 50px;
+  }
+
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+
+
+
+
+  li {
+
+    margin-bottom: 60px;
+    margin-left: 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: aliceblue;
+  }
+
+  a:hover {
+    color: rgb(176, 180, 184);
+    transition: 0.2s;
+
+  }
+
+  .pop {
+    cursor: pointer;
+
+
+
+  }
+
+  .list {
+    width: 37px;
+    z-index: 2;
+    position: fixed;
+    top: 15px;
+    left: 7px;
+
+  }
+
+
+
+
+  .cardimg {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+
+    width: 900px;
+    height: 550px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+  }
+
+
+
+}
+
+@media (min-width:1920px) and (max-width:2048px) {
+  .text p {
+    font-size: 15px;
+  }
+
+  .Snack-Box-um p {
+    font-size: 15px;
+  }
+
+  .Wow-Box-Pedaços-um p {
+    font-size: 15px;
+  }
+
+  .Wow-Box-Tirinhas-um p {
+    font-size: 15px;
+  }
+
+  .Wow-Box-Double-Crunch-um p {
+    font-size: 15px;
+  }
+
+  .Wow-Box-Double-Crunch-BBQ-um p {
+    font-size: 15px;
+  }
+
+  .Big-Box-um p {
+    font-size: 15px;
+  }
+
+  #popup li {
+
+    margin-bottom: 60px;
+    margin-left: 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: aliceblue;
+
+  }
+
+  #popup ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+  }
+
+  .img1 {
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+  }
+
+  .ul-barra {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 60px;
+    margin-top: 18px;
+
+  }
+
+  .ul-barra li {
+
+    font-size: 14px;
+    padding: 5px 5px;
+
+
+  }
+
+
+  .text p {
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  button {
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: #f40424;
+    border: 1px solid #f40424;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  tabela h5 {
+    font-size: 15px;
+  }
+
+}

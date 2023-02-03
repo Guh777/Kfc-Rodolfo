@@ -1,0 +1,375 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+}
+
+body {
+
+  height: 100vh;
+  background-image: url(./img/fundoNY.jpg)
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+*::-webkit-scrollbar-track {
+  background: #252525;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(270deg, rgba(187, 202, 207, 1) 0%, rgba(212, 236, 225, 1) 100%);
+  background-size: auto;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  border-radius: 20px;
+  border: 3px solid #252525;
+
+
+}
+
+.img1 {
+  width: 85px;
+  margin-left: 22px;
+  margin-top: 20px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: aliceblue;
+
+
+
+}
+
+ul {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+.img1:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+  border: 1px solid #000;
+
+}
+
+
+li {
+
+  margin-bottom: 60px;
+  margin-left: 15px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+a:hover {
+  color: #e0d9d9;
+  transition: 0.2s;
+
+}
+
+.pop {
+  position: absolute;
+  cursor: pointer;
+  top: 6px;
+
+}
+
+
+.list {
+  width: 37px;
+  z-index: 2;
+  position: fixed;
+  top: 15px;
+  left: 7px;
+
+
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.text p {
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 50px;
+  color: aliceblue;
+  max-width: 999px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+#carousel {
+  width: 940px;
+  height: 480px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+#carousel img {
+
+  transition: opacity 1s ease-in-out;
+  width: 91.796875%;
+  height: 91.796875%;
+  border-radius: 20px;
+  border: 1px solid aliceblue;
+  min-width: 13%;
+  min-height: 1%;
+
+}
+
+.alinha2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: flex;
+  margin-top: -260px;
+  margin-left: 251px;
+  margin-right: 251px;
+
+
+}
+
+.next {
+  margin-top: 200px;
+  margin-left: 750px;
+  margin-right: 2px;
+
+  float: right;
+}
+
+
+
+.prev {
+  margin-top: 200px;
+  margin-right: 0;
+  float: left;
+  margin-left: 15px;
+
+}
+
+
+
+
+
+
+
+
+.roi {
+  margin-top: -200px;
+  margin-left: -9px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 50%;
+  height: 440px;
+  width: 60px;
+
+
+}
+
+.roi2 {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin-top: -200px;
+  margin-left: 743px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 440px;
+  width: 60px;
+
+
+
+}
+
+.roi:hover {
+
+  background: rgb(220, 220, 220, 0.3);
+  transition: linear all 0.5s;
+  cursor: pointer;
+  opacity: 0.6;
+  filter: invert(100%);
+
+}
+
+.roi2:hover {
+
+  background: rgb(220, 220, 220, 0.3);
+  transition: linear all 0.5s;
+  cursor: pointer;
+  opacity: 0.6;
+  filter: invert(100%);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width: 1280px) {
+  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+  }
+
+  body {
+
+    height: 100vh;
+    background-image: url(./img/fundoNY.jpg)
+  }
+
+
+  .texto-principal {
+    color: aliceblue;
+    font-size: 13px;
+    max-width: 450px;
+    margin-top: 25px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+
+
+
+  .button {
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 209px;
+
+  }
+
+  .next {
+    margin-top: 200px;
+    margin-left: 750px;
+    margin-right: -2px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .prev {
+    margin-top: 200px;
+    margin-right: 0;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width:1920px) and (max-width:2048px) {
+  body {
+
+    height: 97vh;
+    background-image: url(./img/fundoNY.jpg)
+  }
+
+
+  li {
+
+    margin-bottom: 60px;
+    margin-left: 14px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: aliceblue;
+
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+  }
+
+  .img1 {
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+  }
+
+  .button {
+    display: flex;
+    margin-top: -260px;
+    justify-content: center;
+    gap: 180px;
+  }
+
+  .next {
+    width: 40px;
+  }
+
+  .prev {
+    width: 40px;
+  }
+
+  .roi2 {
+    width: 65px;
+
+  }
+
+
+
+
+
+
+  .text p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 50px;
+    color: aliceblue;
+    max-width: 999px;
+    text-align: center;
+    margin-bottom: 0;
+
+  }
+
+  #carousel {
+    width: 1140px;
+    height: 480px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+}

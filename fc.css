@@ -1,0 +1,259 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+}
+
+body {
+
+  height: 100vh;
+  background-image: url(./img/fundoNY.jpg);
+
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+*::-webkit-scrollbar-track {
+  background: #252525;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(270deg, rgba(187, 202, 207, 1) 0%, rgba(212, 236, 225, 1) 100%);
+  background-size: auto;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  border-radius: 20px;
+  border: 3px solid #252525;
+
+
+}
+
+.img1 {
+  width: 85px;
+  margin-left: 22px;
+  margin-top: 20px;
+  border-radius: 100%;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: aliceblue;
+
+
+
+}
+
+ul {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+.img1:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+  border: 1px solid #000;
+
+}
+
+
+li {
+
+  margin-bottom: 60px;
+  margin-left: 15px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+a:hover {
+  color: #e0d9d9;
+  transition: 0.2s;
+}
+
+.pop {
+  position: absolute;
+  cursor: pointer;
+  top: 6px;
+
+}
+
+
+.list {
+  width: 37px;
+  z-index: 2;
+  position: fixed;
+  top: 15px;
+  left: 7px;
+
+
+}
+
+.talita {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+
+}
+
+
+.talita img {
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1.5px solid aliceblue;
+
+}
+
+.talita h5 {
+  color: aliceblue;
+  margin-top: 0px;
+}
+
+.talita h3 {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.talita button {
+  color: aliceblue;
+  background-color: #f40424;
+  border: 1px solid #f40424;
+  border-radius: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
+
+.talita button:hover {
+
+  background: none;
+  transition: 0.5s;
+}
+
+
+
+
+@media (min-width:992px) and (max-width: 1280px) {
+  * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+  }
+
+  body {
+
+    height: 100vh;
+    background-image: url(./img/fundoNY.jpg);
+
+  }
+
+  .talita {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+
+
+  .talita img {
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 1.5px solid aliceblue;
+
+  }
+
+  .talita h5 {
+    color: aliceblue;
+    margin-top: 40px;
+  }
+
+  .talita h3 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .talita button {
+    color: aliceblue;
+    background-color: #f40424;
+    border: 1px solid #f40424;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+
+  .texto-principal {
+    color: aliceblue;
+    font-size: 13px;
+    max-width: 450px;
+    margin-top: 25px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+
+}
+
+@media (min-width:1920px) and (max-width:2048px) {
+
+  body {
+    height: 90vh;
+  }
+
+  .talita h5 {
+    font-size: 15px;
+  }
+
+  li {
+
+    margin-bottom: 60px;
+    margin-left: 15px;
+    list-style: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: aliceblue;
+
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+  }
+
+  .img1 {
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+  }
+
+  .talita button {
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: #f40424;
+    border: 1px solid #f40424;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .talita {
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+}

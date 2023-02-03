@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KFC-Restaurantes</title>
+  <link rel="stylesheet" href="./sobrens.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="imagem/jpg" href="./img/kfc.jpg">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+
+
+  <header>
+
+    <a onclick="abrir('popup')" class="pop"> <img src="./img/menunuu.png" class="list"> </a>
+
+
+    <nav id="popup">
+
+      <img src="./img/KFCMAIK.png" class="img1" onclick="fechar('popup')">
+
+      <ul>
+        <a>
+
+          <li> <a href="./index.html"> Início</a></li>
+          <li> <a href="./card.html">Cardápio </a></li>
+          <li> <a href="./cupons.html">Cupons </a></li>
+          <li> <a onclick="abrir2('popup2')"> Delivery </a></li>
+          <li> <a href="./sobrens.html">Sobre nós</a></li>
+          <li><a href="./fc.html">Fale conosco</a></li>
+
+        </a>
+
+      </ul>
+
+    </nav>
+
+    <div id="popup2">
+      <a onclick="fechar2('popup2')"><img src="./img/volta.png" class="volta"> </a>
+      <h5> <a
+          href="https://www.ifood.com.br/delivery/descobrir/lista/chain:e2b75ff9-285b-400a-b0c8-28c52170c387?source_caller=ui&shortlink=KFC&c=KFC&pid=lista_parceiro&af_click_lookback=7d&af_force_deeplink=true"
+          target="_blank">Ifood </a></h5>
+      <h5> <a href="https://www.rappi.com.br/" target="_blank">Rappi </a></h5>
+    </div>
+
+
+  </header>
+  <div class="alinha2">
+    <div id="carousel">
+
+      <img src="./sobrenos/cirilo1.png" class="owl-item" class="my-animation">
+      <img src="./sobrenos/principal-sobrenos.jpg" class="owl-item" class="my-animation">
+      <img src="./sobrenos/cirilo2.png" class="owl-item" class="my-animation">
+      <img src="./sobrenos/cirilo3.png" class="owl-item" class="my-animation">
+
+
+    </div>
+
+  </div>
+
+  <div class="button">
+    <div class="roi" id="prev">
+      <img src="./img/volta.png" class="prev">
+    </div>
+    <div class="roi2" class="next" id="next">
+      <img src="./img/vai.png" class="next">
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="text">
+    <p>Em 1890, lá no Kentucky, nasceu Harland David Sanders. Um menino comum, com um futuro extraordinário pela
+      frente. Sanders, até os 40 anos, viveu uma vida simples: trabalhou como vendedor de seguros, de pneus e de
+      lâmpadas, pilotou barcos de turismo e fez até partos! Até que, em 1930, resolveu comprar uma loja num posto de
+      gasolina na beira da estrada, o que mudaria pra sempre o seu caminho. Foi ali que ele descobriu o prazer de
+      servir aos viajantes uma comida gostosa e reconfortante: ele preparava, com todo o carinho, o mesmo frango frito
+      que comia na sua infância. Por 10 anos, o Coronel foi aperfeiçoando a receita até que em 1940 ele chegou ao que
+      considerou a perfeição. O frango fazia tanto sucesso que trazia cada vez mais pessoas ao restaurante do posto de
+      gasolina. E o Coronel quis expandir seus negócios: patenteou o nome Kentucky Fried Chicken e saiu pelo país
+      buscando franqueados. Em 1952, conseguiu o primeiro, em Salt Lake City. Em 1957, veio a ideia de servir o frango
+      em balde, embalagem que viraria ícone da marca. E o sucesso foi tanto que, em 1964, o Coronel recebeu uma oferta
+      irrecusável. Já com 74 anos, ele vendeu o KFC, mas continuou presente como embaixador da marca e se tornou
+      conhecido como o criador da receita de um frango inigualável, crocante por fora e suculento por dentro, que faz
+      sucesso em todo o mundo e é servido para milhões e milhões de pessoas, todos os dias.
+
+      10 anos depois do primeiro restaurante, o KFC já tinha 600 lojas. E 60 anos depois, já são mais de 5 mil lojas,
+      em 120 países, com 14 milhões de clientes por dia. O que era uma receita secreta de um pequeno sonhador do
+      Kentucky se tornou um dos maiores segredos do universo das marcas. E desse segredo, surgiu o frango mais gostoso
+      do mundo.
+
+      Então essa história chegou aqui. A mesma receita, o mesmo padrão, mas com um tempero diferente: um jeitinho que
+      só o nosso país tem. Seja no atendimento, nos lançamentos ou nos molhos, o KFC Brasil sempre tem uma novidade
+      que você não encontra em nenhum outro lugar do mundo. Nem mesmo em outro KFC.</p>
+  </div>
+
+
+
+
+  <script src="./kaue.js"> </script>
+
+</body>
+
+
+
+<style type="text/css">
+  #popup {
+    display: none;
+    top: 0%;
+    position: fixed;
+    background-color: #f40424;
+    width: 10%;
+    height: 100vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 4;
+    animation-duration: 0.5s;
+    animation-name: guh;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes guh {
+    from {
+      margin-left: -11%;
+
+    }
+
+    to {
+      margin-left: 0;
+
+    }
+  }
+
+  @keyframes guhOut {
+    from {
+      margin-left: 0;
+    }
+
+    to {
+      margin-left: -11%;
+
+    }
+  }
+
+  #popup2 {
+    margin-left: 133px;
+    display: none;
+    top: 57%;
+    position: fixed;
+    background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+    width: 100px;
+    height: 13vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    animation-duration: 0.7s;
+    animation-name: pop2;
+    animation-fill-mode: forwards;
+    z-index: 3;
+  }
+
+  #popup2 h5 {
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+
+  }
+
+  #popup2.show {
+    display: block;
+  }
+
+  .volta {
+    position: absolute;
+    left: 85%;
+    width: 15px;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  @keyframes pop2 {
+    from {
+      margin-left: -10%;
+    }
+
+    to {
+      margin-left: 133px;
+    }
+  }
+
+  @keyframes pop2Out {
+    from {
+      margin-left: 133px;
+
+    }
+
+    to {
+      margin-left: -10%;
+    }
+  }
+
+  @media (min-width:992px) and (max-width: 1280px) {
+
+    #popup2 {
+      left: -10px;
+      display: none;
+      top: 40%;
+      position: fixed;
+      background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+      width: 100px;
+      height: 13vh;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    #popup2 h5 {
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 25px;
+
+    }
+  }
+
+  @media (min-width:1920px) and (max-width: 2048px) {
+
+    #popup2 {
+      left: -10px;
+      display: none;
+      top: 55%;
+      position: fixed;
+      background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+      width: 110px;
+      height: 13vh;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    #popup2 h5 {
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 32px;
+      font-size: 15px;
+
+    }
+
+
+    @keyframes pop2 {
+      from {
+        margin-left: -10%;
+      }
+
+      to {
+        margin-left: 200px;
+      }
+    }
+
+    @keyframes pop2Out {
+      from {
+        margin-left: 200px;
+
+      }
+
+      to {
+        margin-left: -10%;
+      }
+    }
+
+    .volta {
+
+      left: 85%;
+      width: 20px;
+      top: 40%;
+
+    }
+  }
+</style>
+
+
+</html>

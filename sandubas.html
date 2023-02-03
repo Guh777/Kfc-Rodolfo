@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+  <title>KFC-Restaurantes</title>
+  <link rel="stylesheet" href="./sandubas.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="imagem/jpg" href="./img/kfc.jpg">
+
+</head>
+
+
+<body>
+  <a onclick="abrir('popup')" class="pop"> <img src="./img/menunuu.png" class="list"> </a>
+  <div class="barra">
+
+    <ul class="ul-barra">
+
+      <a href="./baldes.html" aria-current="page">
+        <li class="li um">Baldes</li>
+      </a>
+
+      <a href="./boxs.html">
+        <li class="li dois">Box</li>
+      </a>
+      <a href="./sandubas.html">
+        <li class="li tres">Sanduíches</li>
+      </a>
+      <a href="./acomp.html">
+        <li class="li quatro">Acompanhamentos</li>
+      </a>
+      <a href="./molho.html">
+        <li class="li cinco">Molhos</li>
+      </a>
+      <a href="./sobremesas.html">
+        <li class="li seis">Sobremesas</li>
+      </a>
+      <a href="./sucos.html">
+        <li class="li sete">Bebidas</li>
+      </a>
+    </ul>
+
+  </div>
+
+  <header>
+
+    <div class="banner">
+      <img src="./comidinhas/banner-hamberguer-principal.png" id="bannerSandubaPrincipal">
+      <img src="./comidinhas/banner-hamburguer-um.png" id="bannerSandubaUm">
+      <img src="./comidinhas/banner-hamburguer-dois.png" id="bannerSandubaDois">
+      <img src="./comidinhas/banner-hamburguer-tres.png" id="bannerSandubaTres">
+      <img src="./comidinhas/banner-hamburguer-quatro.png" id="bannerSandubaQuatro">
+      <img src="./comidinhas/banner-hamburguer-cinco.png" id="bannerSandubaCinco">
+      <img src="./comidinhas/banner-hamburguer-seis.png" id="bannerSandubaSeis">
+      <img src="./comidinhas/banner-hamburguer-sete.png" id="bannerSandubaSete">
+
+    </div>
+
+
+    <nav id="popup">
+
+      <img src="./img/KFCMAIK.png" class="img1" onclick="fechar('popup')">
+
+      <ul>
+        <a>
+
+          <li> <a href="./index.html"> Início</a></li>
+          <li> <a href="./card.html">Cardápio </a></li>
+          <li> <a href="./cupons.html">Cupons </a></li>
+          <li> <a onclick="abrir2('popup2')"> Delivery </a> </li>
+          <li> <a href="./sobrens.html">Sobre nós</a></li>
+          <li><a href="./fc.html">Fale conosco</a></li>
+
+        </a>
+
+      </ul>
+
+    </nav>
+    <div id="popup2">
+      <a onclick="fechar2('popup2')"><img src="./img/volta.png" class="volta"> </a>
+      <h5> <a
+          href="https://www.ifood.com.br/delivery/descobrir/lista/chain:e2b75ff9-285b-400a-b0c8-28c52170c387?source_caller=ui&shortlink=KFC&c=KFC&pid=lista_parceiro&af_click_lookback=7d&af_force_deeplink=true"
+          target="_blank">Ifood </a></h5>
+      <h5> <a href="https://www.rappi.com.br/" target="_blank">Rappi </a></h5>
+    </div>
+
+
+  </header>
+
+  <div class="guh-principal">
+
+    <div class="Gran-BBQ-Bacon-um">
+      <a onclick="duba('GranBBQBaconUm')"> <img src="./comidinhas/hamburguer-um.png" class="guh" id="baldao"></a>
+
+      <h5>Gran BBQ <br> Bacon</h5>
+
+    </div>
+
+    <div class="Kentucky-Chicken-Sandwich-um">
+      <a onclick="duba1 ('KentuckyChickenSandwichUm')"><img src="./comidinhas/hamburguer-dois.png" class="guh1"></a>
+      <h5>Kentucky Chicken <br>Sandwich</h5>
+    </div>
+    <div class="Gran-Extra-Crocante-um">
+      <a onclick="duba2 ('GranExtraCrocanteUm')"><img src="./comidinhas/hamburguer-tres.png" class="guh2"></a>
+      <h5>Gran Extra <br> Crocante</h5>
+    </div>
+    <div class="Cheddar-Melt-um">
+      <a onclick="duba3  ('CheddarMeltUm')"><img src="./comidinhas/hamburguer-quatro.png" class="guh3"></a>
+      <h5>Cheddar Melt</h5>
+    </div>
+    <div class="Double-Crunch-Bacon-um">
+      <a onclick="duba4  ('DoubleCrunchBaconUm')"><img src="./comidinhas/hamburguer-cinco.png" class="guh4"></a>
+      <h5>Double Crunch <br>Bacon</h5>
+    </div>
+    <div class="Double-Crunch-um">
+      <a onclick="duba5 ('DoubleCrunchUm')"><img src="./comidinhas/hamburguer-seis.png" class="guh5"></a>
+      <h5>Double Crunch</h5>
+    </div>
+    <div class="Double-Crunch-BBQ-um">
+      <a onclick="duba6 ('DoubleCrunchBBQUm')"><img src="./comidinhas/hamburguer-sete.png" class="guh6"></a>
+      <h5>Double Crunch<br> BBQ</h5>
+    </div>
+
+
+  </div>
+
+
+
+  <div id="textNone">
+    <div class="text">
+      <h3>UM SABOR INESQUECÍVEL PARA TODOS OS GOSTOS</h3>
+
+
+      <a href="./cupons.html"><button>VEJA OS CUPONS</button> </a>
+
+    </div>
+  </div>
+  <div id="GranBBQBacon">
+    <div class="Gran-BBQ-Bacon">
+      <h3>CROCANTE E VICIANTE</h3>
+      <p>Quando o frango do KFC se encontra com fatias de bacon, queijo sabor cheddar e molho barbecue, é isso que
+        acontece: <br> uma explosão de sabor. E pra completar, maionese e pão brioche tostado na manteiga
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+
+
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+
+  <div id="KentuckyChickenSandwich">
+    <div class="Kentucky-Chicken-Sandwich">
+      <h3>FEITO COM O MELHOR FRANGO DO MUNDO
+      </h3>
+      <p>O sanduíche que é a especialidade da casa: Kentucky Chicken Sandwich. São 140 g de filé de peito suculento
+        e
+        extracrocante, <br> picles e maionese especial abraçados por um pão brioche tostado na manteiga. Simplesmente
+        fenomenal.</p>
+      <h3>TABELA NUTRICIONAL</h3>
+
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+
+        <p><a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+
+            <u> Download Tabela
+              Nutricional</u>
+
+          </a>
+        </p>
+
+      </tabela>
+
+
+    </div>
+  </div>
+  <div id="GranExtraCrocante">
+    <div class="Gran-Extra-Crocante">
+      <h3>COMPLETO, DELICIOSO</h3>
+      <p>Um clássico: Filé de Peito Crocante, Queijo Sabor Cheddar, Salada Tropical,<br> Tomate, Maionese Defumada no
+        Pão
+        Brioche Tostado na Manteiga</p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+  <div id="CheddarMelt">
+    <div class="Cheddar-Melt">
+      <h3>NÃO EXISTE OUTRO IGUAL</h3>
+      <p>Agora você derrete de vez: 2 Tirinhas feitas com a Receita Crocante, queijo sabor cheddar<br> cremoso
+        e cebola ao molho shoyu no pão clássico com gergelim tostado na manteiga
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+  <div id="DoubleCrunchBacon">
+    <div class="Double-Crunch-Bacon">
+      <h3>O QUERIDINHO</h3>
+      <p>Pão com gergelim, 2 tirinhas na receita crocante, salada mix tropical,<br> maionese temperada e tomate, bacon
+        em
+        fatias!
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+  <div id="DoubleCrunch">
+    <div class="Double-Crunch">
+      <h3>DOUBLE CRUNCH</h3>
+      <p>2 Tirinhas suculentas e douradas, feitas com a Receita Crocante, dentro do pão tostado com manteiga,<br> com
+        Salada
+        Mix Tropical e a maionese temperada exclusiva do KFC!
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+
+  <div id="DoubleCrunchBBQ">
+    <div class="Double-Crunch-BBQ">
+      <h3>DOUBLE CRUNCH BBQ</h3>
+      <p>Em volta, pão tostado com manteiga. Dentro, 2 Tirinhas de frango douradas por fora e suculentas por dentro,<br>
+        preparadas com a Receita Crocante, queijo sabor cheddar,<br> Maionese Grill e, pra fechar com chave de ouro, um
+        irresistível Molho BBQ!
+      </p>
+      <h3>TABELA NUTRICIONAL</h3>
+      <tabela>
+        <h4>Pedaços</h4>
+        <div class="alinha-h5">
+          <h5>Quantidade por porção </h5>
+          <h5>% Valor Diário (*)
+          </h5>
+        </div>
+
+
+        <p>* Valores Diários de referências com base em uma dieta de 2.000 Kcal ou 8.400 kJ. <br> Seus valores diários
+          podem
+          ser maiores ou menores, dependendo de suas <br> necessidades energéticas.</p>
+        <p>(**) Valores Diários de referência não estabelecidos.</p>
+        <p> <a href="https://kfcbrasil.com.br/wp-content/uploads/2020/08/informacoes-nutricionais.pdf" target="_blank">
+            <u>
+              Download Tabela
+              Nutricional
+            </u>
+          </a> </p>
+      </tabela>
+    </div>
+  </div>
+
+  <script src="./card.js"> </script>
+  <script src="./kaue.js"> </script>
+  <script> </script>
+
+</body>
+
+
+<style type="text/css">
+  #popup {
+    display: none;
+    top: 0%;
+    position: fixed;
+    background-color: #f40424;
+    width: 10%;
+    height: 100vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 4;
+
+    animation-duration: 0.7s;
+    animation-name: guh;
+
+
+  }
+
+  @keyframes guh {
+    from {
+      margin-left: -11%;
+
+    }
+
+    to {
+      margin-left: 0;
+
+    }
+  }
+
+  @keyframes guhOut {
+    from {
+      margin-left: 0;
+
+    }
+
+    to {
+      margin-left: -11%;
+
+    }
+  }
+
+  #popup2 {
+    margin-left: 133px;
+    display: none;
+    top: 57%;
+    position: fixed;
+    background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+    width: 100px;
+    height: 13vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    border-right: 1px solid aliceblue;
+    animation-duration: 0.7s;
+    animation-name: pop2;
+    animation-fill-mode: forwards;
+  }
+
+  #popup2 h5 {
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+
+  }
+
+  #popup2.show {
+    display: block;
+  }
+
+  .volta {
+    position: absolute;
+    left: 85%;
+    width: 15px;
+    top: 40%;
+    cursor: pointer;
+  }
+
+  @keyframes pop2 {
+    from {
+      margin-left: -10%;
+    }
+
+    to {
+      margin-left: 133px;
+    }
+  }
+
+  @keyframes pop2Out {
+    from {
+      margin-left: 133px;
+
+    }
+
+    to {
+      margin-left: -10%;
+    }
+  }
+
+  @media (min-width:992px) and (max-width: 1280px) {
+
+    #popup2 {
+      left: -10px;
+      display: none;
+      top: 40%;
+      position: fixed;
+      background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+      width: 100px;
+      height: 13vh;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    #popup2 h5 {
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 25px;
+
+    }
+  }
+
+  @media (min-width:1920px) and (max-width: 2048px) {
+
+    #popup2 {
+      left: -10px;
+      display: none;
+      top: 55%;
+      position: fixed;
+      background-image: linear-gradient(to top, #f40424, #e9001fe0, #b60018);
+      width: 110px;
+      height: 13vh;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    #popup2 h5 {
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 32px;
+      font-size: 15px;
+
+    }
+
+
+    @keyframes pop2 {
+      from {
+        margin-left: -10%;
+      }
+
+      to {
+        margin-left: 200px;
+      }
+    }
+
+    @keyframes pop2Out {
+      from {
+        margin-left: 200px;
+
+      }
+
+      to {
+        margin-left: -10%;
+      }
+    }
+
+    .volta {
+
+      left: 85%;
+      width: 20px;
+      top: 40%;
+
+    }
+  }
+</style>
+
+
+</html>
